@@ -9,3 +9,4 @@ This dotfiles managed by `chezmoi` and contains the following:
 5. utilities: dunst / redshift / picom / xsettingsd
 6. mpd and mpv
 7. zathura
+8. newsboat
