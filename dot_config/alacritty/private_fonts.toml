@@ -1,0 +1,9 @@
+[font]
+size = 7.9
+
+builtin_box_drawing = true
+
+normal = { family = "Lilex", style = "Regular" }
+bold = { family = "Lilex", style = "Medium" }
+italic = { family = "Lilex", style = "Italic" }
+bold_italic = { family = "Lilex", style = "Bold Italic" }

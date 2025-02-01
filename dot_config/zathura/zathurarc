@@ -1,0 +1,29 @@
+include zathura-gruvbox-light-soft
+
+set adjust-open "best-fit"
+set window-height 1080
+set window-width 1920
+#set adjust-open width
+
+
+set recolor false
+set sandbox none
+set selection-clipboard clipboard
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 0
+map <Up> scroll half-up
+map <Down> scroll half-down
+map T toggle_page_mode
+map <Right> scroll full-down
+map <Left> scroll full-up
+map r reload
+map R rotate
+map A zoom in
+map D zoom out
+map i recolor
+map p print
+set font                        "Iosevka Comfy 12"
+#prime one
+map b toggle_statusbar
+

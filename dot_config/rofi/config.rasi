@@ -1,0 +1,30 @@
+configuration {
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    show-icons:     true;
+    font: "Iosevka Comfy 12";
+}
+//@theme "/usr/share/rofi/themes/Arc.rasi"
+//@theme "/usr/share/rofi/themes/gruvbox-light.rasi"
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+//@theme "/home/faza96/.local/share/rofi/themes/arc_dark_colors.rasi"
+//@theme "/usr/share/rofi/themes/Arc.rasi"
+//@theme "/usr/share/rofi/themes/gruvbox-light-hard.rasi"
+//@theme "/home/faza96/.local/share/rofi/themes/arc_dark_colors.rasi"
+//@theme "/usr/share/rofi/themes/Arc.rasi"
+//@theme "/usr/share/rofi/themes/android_notification.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+//@theme "/home/faza96/.local/share/rofi/themes/arc_dark_transparent_colors.rasi"
+
+//@theme "/usr/share/rofi/themes/solarized_alternate.rasi"
+
+//@theme "/home/faza96/.local/share/rofi/themes/squared-everforest.rasi"
+
+//@theme "/home/faza96/.local/share/rofi/themes/kanagawa-paper.rasi"
+
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"

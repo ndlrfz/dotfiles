@@ -1,0 +1,20 @@
+fork = true
+frame = "full"
+idle = true
+maximized = true
+neovim-bin = "/usr/bin/nvim" # in reality found dynamically on $PATH if unset
+no-multigrid = false
+srgb = false
+tabs = false
+theme = "kanagawa"
+title-hidden = true
+vsync = true
+wsl = false
+
+[font]
+size = 9
+
+[[font.normal]]
+family = "Iosevka SS14"
+style = "Regular"
+
