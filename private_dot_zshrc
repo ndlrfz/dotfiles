@@ -65,6 +65,7 @@ alias parQ='paru -Qua'
 
 # other
 alias v='nvim'
+alias vkick='NVIM_APPNAME=vkick nvim'
 #alias fastfetch='fastfetch -c ~/.config/fastfetch/config.jsonc'
 alias e='emacsclient -t'
 alias remacs='kill $(pidof emacs); emacs --daemon'
