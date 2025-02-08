@@ -80,7 +80,8 @@ export VAGRANT_DISABLE_STRICT_DEPENDENCY_ENFORCEMENT=1
 export IMG='/run/media/faza96/data1/img/'
 export WINIT_HIDPI_FACTOR=3
 test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
-export QT_STYLE_OVERRIDE=kvantum
+#export QT_STYLE_OVERRIDE=kvantum
+export QT_QPA_PLATFORMTHEME=qt5ct
 export FZF_DEFAULT_OPTS='--color=bg+:#293739,bg:#1B1D1E,border:#808080,spinner:#E6DB74,hl:#7E8E91,fg:#F8F8F2,header:#7E8E91,info:#A6E22E,pointer:#A6E22E,marker:#F92672,fg+:#F8F8F2,prompt:#F92672,hl+:#F92672'
 
 
