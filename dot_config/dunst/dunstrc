@@ -2,7 +2,7 @@
 frame_color = "#8caaee"
 separator_color= frame
 
-font = Iosevka Comfy 12
+font = Iosevka SS14 12
 line_height = 0
 markup = full
 format = "<b>%s</b>\n%b"

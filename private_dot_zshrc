@@ -33,9 +33,9 @@ WORDCHARS=${WORDCHARS//[\/]}
 # MY CUSTOM CONFIGURATIONS
 
 # path
-path+=('/home/faza96/bin')
-path+=('/home/faza96/.config/emacs/bin')
-path+=('/home/faza96/.local/bin')
+path+=('/home/ndlr/bin')
+path+=('/home/ndlr/.config/emacs/bin')
+path+=('/home/ndlr/.local/bin')
 #path+=('/home/minjiu/.local/share/gem/ruby/3.0.0/bin')
 export PATH
 
@@ -77,7 +77,7 @@ alias swn='focus --sound tick_tock'
 
 # vagrant
 export VAGRANT_DISABLE_STRICT_DEPENDENCY_ENFORCEMENT=1
-export IMG='/run/media/faza96/data1/img/'
+export IMG='/run/media/ndlr/data1/img/'
 export WINIT_HIDPI_FACTOR=3
 test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
 #export QT_STYLE_OVERRIDE=kvantum
