@@ -8,9 +8,9 @@ wezterm.on("gui-startup", function()
 	window:gui_window():maximize()
 end)
 
-config.font = wezterm.font("JetBrainsMono Nerd Font", { weight = "Regular" })
+config.font = wezterm.font("Iosevka SS14", { weight = "Regular" })
 config.freetype_load_target = "Normal"
-config.font_size = 13.9
+config.font_size = 15.2
 config.line_height = 1.1
 -- config.colors = require('cyberdream')
 -- config.color_scheme = " Everforest Dark (Gogh) Monokai Soda tokyonight_moon tokyonight_day Espresso Espresso Libre"

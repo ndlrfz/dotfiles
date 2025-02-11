@@ -352,8 +352,8 @@ for_window [class=TelegramDesktop] focus
 for_window [floating] border pixel 4
 
 ## Polybar
-exec_always --no-startup-id polybar
-exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
+exec --no-startup-id polybar
+exec --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 
 ##############
 # compositor #
@@ -437,7 +437,7 @@ exec --no-startup-id sleep 2 && nitrogen --restore
 # networkmanager-applet
 exec --no-startup-id firewall-applet
 exec --no-startup-id mate-power-manager
-exec --no-startup-id octopi-notifier
+exec --no-startup-id /usr/bin/octopi-notifier
 #exec --no-startup-id xfce4-power-manager
 
 # clipman-applet
