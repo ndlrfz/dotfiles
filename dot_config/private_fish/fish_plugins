@@ -15,3 +15,7 @@ danhper/fish-ssh-agent
 vladhaidukkk/fish-venv
 pure-fish/pure
 gazorby/fish-pacman
+veirt/web-search.fish
+ankitsumitg/docker-fish-completions
+demartini/plugin-docker-compose
+gazorby/fish-chezmoi

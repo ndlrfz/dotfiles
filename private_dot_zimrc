@@ -45,6 +45,8 @@ zmodule ohmyzsh/ohmyzsh --root plugins/sudo
 zmodule djui/alias-tips
 zmodule Aloxaf/fzf-tab
 zmodule zpm-zsh/tmux
+zmodule greymd/docker-zsh-completion
+zmodule redxtech/zsh-containers
 #zmodule spaceship-prompt/spaceship-prompt --name spaceship --no-submodules
 
 # A heavily reduced, ASCII-only version of the Spaceship and Starship prompts.

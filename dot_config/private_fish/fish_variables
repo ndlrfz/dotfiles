@@ -23,14 +23,14 @@ SETUVAR --export EXA_LT_OPTIONS:\x2d\x2dtree\x1e\x2d\x2dlevel
 SETUVAR --export EXA_L_OPTIONS:\x1d
 SETUVAR --export EXA_STANDARD_OPTIONS:\x2d\x2dgroup\x1e\x2d\x2dheader\x1e\x2d\x2dgroup\x2ddirectories\x2dfirst
 SETUVAR TLDR_PROGRAM_BLACKLIST_CREATION_TIMESTAMP:1735909702
-SETUVAR --path TLDR_PROGRAM_BLACKLIST_PATH:/home/faza96/\x2elocal/share/fish/tldr\x2don\x2derror\x2dblacklist\x2etxt
+SETUVAR --path TLDR_PROGRAM_BLACKLIST_PATH:/home/ndlr/\x2elocal/share/fish/tldr\x2don\x2derror\x2dblacklist\x2etxt
 SETUVAR TLDR_PROGRAM_BLACKLIST_TIMEOUT:604800
 SETUVAR VIRTUAL_ENV_DISABLE_PROMPT:true
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
-SETUVAR Z_DATA:/home/faza96/\x2elocal/share/z/data
-SETUVAR Z_DATA_DIR:/home/faza96/\x2elocal/share/z
-SETUVAR Z_EXCLUDE:\x5e/home/faza96\x24
+SETUVAR Z_DATA:/home/ndlr/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/home/ndlr/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/home/ndlr\x24
 SETUVAR --export __ABBR_TIPS_KEYS:a__conn\x1ea__e\x1ea__ll\x1ea__lla\x1ea__ls\x1ea__v\x1evdf\x1evup\x1evssh\x1ea__checkip\x1ea__vdf\x1ea__\x2d\x2dhelp\x1ea__vh\x1ea__mivim\x1ea__mivim\x1ea__mivim\x1ea__vkick\x1ea__vdes
 SETUVAR --export __ABBR_TIPS_VALUES:ipvanish\x20connect\x20\x2d\x2dcountry\x20SG\x1eemacsclient\x20\x2dt\x1eexa\x20\x2dl\x20\x2dg\x20\x2d\x2dicons\x1ell\x20\x2da\x1eexa\x1envim\x1evagrant\x20destroy\x20\x2df\x1evagrant\x20up\x1evagrant\x20ssh\x1ecurl\x1evagrant\x1e\x1evagrant\x1eNVIM_APPNAME\x20MiVim\x1eNVIM_APPNAME\x20mivim\x1eNVIM_APPNAME\x20mivim\x1eNVIM_APPNAME\x20vkick\x1evagrant
 SETUVAR --export __FISH_EXA_ALIASES:l\x1ela\x1eld\x1eli\x1elid\x1elaa\x1elad\x1elai\x1elaid\x1elaad\x1elaai\x1elaaid\x1ell\x1ella\x1elld\x1elli\x1ellid\x1ellaa\x1ellad\x1ellai\x1ellaid\x1ellaad\x1ellaai\x1ellaaid\x1elg\x1elga\x1elgd\x1elgi\x1elgid\x1elgaa\x1elgad\x1elgai\x1elgaid\x1elgaad\x1elgaai\x1elgaaid\x1ele\x1elea\x1eled\x1elei\x1eleid\x1eleaa\x1elead\x1eleai\x1eleaid\x1eleaad\x1eleaai\x1eleaaid\x1elt\x1elta\x1eltd\x1elti\x1eltid\x1eltad\x1eltai\x1eltaid\x1eltaad\x1eltaai\x1eltaaid\x1elc\x1elca\x1elcd\x1elci\x1elcid\x1elcaa\x1elcad\x1elcai\x1elcaid\x1elcaad\x1elcaai\x1elcaaid\x1elo\x1eloa\x1elod\x1eloi\x1eloid\x1eloaa\x1eload\x1eloai\x1eloaid\x1eloaad\x1eloaai\x1eloaaid
@@ -114,7 +114,7 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/home/faza96/bin\x1e/home/faza96/\x2econfig/emacs/bin\x1e/home/faza96/\x2elocal/bin
+SETUVAR fish_user_paths:/home/ndlr/bin\x1e/home/ndlr/\x2econfig/emacs/bin\x1e/home/ndlr/\x2elocal/bin
 SETUVAR pisces_pairs:\x28\x2c\x29\x1e\x5b\x2c\x5d\x1e\x7b\x2c\x7d\x1e\x22\x2c\x22\x1e\x27\x2c\x27
 SETUVAR pure_begin_prompt_with_current_directory:true
 SETUVAR pure_check_for_new_release:false

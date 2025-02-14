@@ -148,7 +148,8 @@ vim.opt.splitbelow = false
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 vim.opt.list = true
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = "▸ ", trail = "·", eol = "⤵", nbsp = "␣" }
+-- vim.opt.listchars = { tab = "▸ ", trail = "·", eol = "⤶ 󰘌", nbsp = "␣" }
 
 -- tab
 vim.o.tabstop = 4 -- A TAB character looks like 4 spaces
@@ -695,7 +696,6 @@ require("lazy").setup({
 			local ensure_installed = vim.tbl_keys(servers or {})
 			vim.list_extend(ensure_installed, {
 				"stylua", -- Used to format Lua code
-				"markdownlint",
 				"markdownlint-cli2",
 				"eslint_d",
 				"shellcheck",
@@ -763,7 +763,7 @@ require("lazy").setup({
 				scss = { "prettierd" },
 				less = { "prettierd" },
 				yaml = { "prettierd" },
-				markdown = { "markdownlint" },
+				markdown = { "markdownlint-cli2" },
 				--
 				-- You can use 'stop_after_first' to run the first available formatter from the list
 				javascript = { "prettierd", "prettier", stop_after_first = true },

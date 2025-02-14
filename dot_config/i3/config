@@ -435,7 +435,7 @@ exec --no-startup-id sleep 2 && nitrogen --restore
 #exec --no-startup-id blueberry-tray
 
 # networkmanager-applet
-exec --no-startup-id firewall-applet
+#exec --no-startup-id firewall-applet
 exec --no-startup-id mate-power-manager
 exec --no-startup-id /usr/bin/octopi-notifier
 #exec --no-startup-id xfce4-power-manager

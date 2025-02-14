@@ -10,9 +10,15 @@ end
 
 if type -q vagrant
     alias vup "vagrant up"
-    alias vdf "vrgant destroy -f"
+    alias vdf "vagrant destroy -f"
     alias vssh "vagrant ssh"
     alias vgs "vagrant global-status"
+end
+
+if type -q web-search
+    alias gl "web-search google"
+    alias sov "web-search stackoverflow"
+    alias github "web-search github"
 end
 
 if type -q python
@@ -37,7 +43,7 @@ set --universal pure_show_system_time false
 set --universal pure_color_system_time pure_color_mute
 set -U pure_enable_single_line_prompt true
 # # ツ 󰘧   ⋊>       
-set -U pure_symbol_prompt "⋊>"
+set -U pure_symbol_prompt "󰘧"
 set -U pure_symbol_ssh_prefix "󰣀 "
 set -U pure_shorten_prompt_current_directory_length 1
 set -U pure_symbol_virtualenv_prefix " "
