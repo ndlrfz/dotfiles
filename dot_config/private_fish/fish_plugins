@@ -4,7 +4,6 @@ jorgebucaran/hydro
 jethrokuan/z
 decors/fish-colored-man
 eth-p/fish-plugin-sudo
-gazorby/fish-abbreviation-tips
 gazorby/fish-exa
 alaz-oz/fish-insulter
 shoriminimoe/fish-extract
@@ -19,3 +18,4 @@ veirt/web-search.fish
 ankitsumitg/docker-fish-completions
 demartini/plugin-docker-compose
 gazorby/fish-chezmoi
+paysonwallach/fish-you-should-use

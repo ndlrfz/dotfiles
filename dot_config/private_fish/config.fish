@@ -21,6 +21,11 @@ if type -q web-search
     alias github "web-search github"
 end
 
+if type -q doas
+    alias sudo='doas'
+    alias sudoedit='doas rnano'
+end
+
 if type -q python
     alias py python3
 end
