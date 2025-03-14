@@ -763,6 +763,7 @@ require("lazy").setup({
 				scss = { "prettierd" },
 				less = { "prettierd" },
 				yaml = { "prettierd" },
+        php = { "tlint" },
 				markdown = { "markdownlint-cli2" },
 				--
 				-- You can use 'stop_after_first' to run the first available formatter from the list

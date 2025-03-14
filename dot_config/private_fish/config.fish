@@ -39,17 +39,28 @@ bind \cs __ethp_commandline_toggle_sudo
 
 set fish_greeting ""
 set -gx TERM xterm-256color
+set -gx EDITOR nvim
 #set -U autovenv_enable yes
 #set -U autovenv_announce yes
 
 fzf_configure_bindings --variable=
 
-set --universal pure_show_system_time false
-set --universal pure_color_system_time pure_color_mute
-set -U pure_enable_single_line_prompt true
+# hydro theme
+#set -g hydro_symbol_prompt "󰘧"
+
+# git async for pure
+#set -g async_prompt_functions _pure_prompt_git
+#set -U async_prompt_inherit_variables all
+
+#set --universal pure_show_system_time false
+#set --universal pure_color_system_time pure_color_mute
+#set -U pure_enable_single_line_prompt true
 # # ツ 󰘧   ⋊>       
-set -U pure_symbol_prompt "󰘧"
-set -U pure_symbol_ssh_prefix "󰣀 "
-set -U pure_shorten_prompt_current_directory_length 1
-set -U pure_symbol_virtualenv_prefix " "
-set -U pure_show_prefix_root_prompt true
+#set -U pure_symbol_prompt "󰘧"
+#set -U pure_symbol_ssh_prefix "󰣀 "
+#set -U pure_shorten_prompt_current_directory_length 1
+#set -U pure_symbol_virtualenv_prefix " "
+#set -U pure_show_prefix_root_prompt true
+
+# starship
+starship init fish | source

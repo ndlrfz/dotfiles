@@ -3,6 +3,13 @@ return {
 	{ -- Linting
 		"mfussenegger/nvim-lint",
 		event = { "BufReadPre", "BufNewFile" },
+    opts = {
+      linters = {
+        ['markdownlint-cli2'] = {
+          args = { '--config', '/home/ndlr/.markdownlint-cli2.yaml', '--' },
+        },
+      },
+    },
 		config = function()
 			local lint = require("lint")
 			lint.linters_by_ft = {

@@ -12,10 +12,6 @@ franciscolourenco/done
 jeremy-hibiki/plugin-archlinux
 danhper/fish-ssh-agent
 vladhaidukkk/fish-venv
-pure-fish/pure
 gazorby/fish-pacman
-veirt/web-search.fish
-ankitsumitg/docker-fish-completions
-demartini/plugin-docker-compose
-gazorby/fish-chezmoi
-paysonwallach/fish-you-should-use
+Gazorby/fish-finders
+halostatue/fish-utils-net

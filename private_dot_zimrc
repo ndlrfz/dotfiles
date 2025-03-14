@@ -42,7 +42,6 @@ zmodule ohmyzsh/ohmyzsh --root plugins/archlinux
 zmodule ohmyzsh/ohmyzsh --root plugins/aliases
 zmodule ohmyzsh/ohmyzsh --root plugins/python
 zmodule ohmyzsh/ohmyzsh --root plugins/sudo
-zmodule djui/alias-tips
 zmodule Aloxaf/fzf-tab
 zmodule zpm-zsh/tmux
 zmodule greymd/docker-zsh-completion
