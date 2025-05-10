@@ -101,8 +101,12 @@ return {
       -- { '<leader>tw', telescope_builtin.lsp_dynamic_workspace_symbols, desc = 'Symbols in workspace' },
       -- { '<leader>tz', '<cmd>Telescope zoxide list<CR>', desc = 'Zoxide' },
       -- Standalone group
-      { '<leader>s', group = 'Mini Surrounding' },
       { '<leader>l', group = 'LSP commands' },
+
+      -- Liveserver
+      { '<leader>s', group = 'LiveServer' },
+      { '<leader>sp', '<cmd> LiveServerStart <CR>', desc = 'Start LiveServer' },
+      { '<leader>st', '<cmd> LiveServerStop <CR>', desc = 'Stop LiveServer' },
 
       -- Windows
       { '<leader>w', group = 'Windows Management' },

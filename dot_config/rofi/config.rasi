@@ -5,7 +5,7 @@ configuration {
     display-window: "";
     display-combi:  "";
     show-icons:     true;
-    font: "Iosevka SS14 12";
+    font: "JetBrainsMono Nerd Font Bold 13";
 }
 //@theme "/usr/share/rofi/themes/Arc.rasi"
 //@theme "/usr/share/rofi/themes/gruvbox-light.rasi"
