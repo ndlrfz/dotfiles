@@ -41,8 +41,8 @@ zstyle ':prezto:load' pmodule \
   'history-substring-search' \
   'syntax-highlighting' \
   'autosuggestions' \
+  'ssh-agent' \
   'prompt' \
-  'keychain' \
   'git' \
   'archive' \
   'tmux' \

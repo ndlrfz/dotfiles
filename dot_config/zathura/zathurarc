@@ -23,7 +23,7 @@ map A zoom in
 map D zoom out
 map i recolor
 map p print
-set font                        "Iosevka SS14 12"
+set font                        "JetBrainsMono Nerd Font 12"
 #prime one
 map b toggle_statusbar
 

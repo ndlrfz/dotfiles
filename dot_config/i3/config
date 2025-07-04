@@ -48,14 +48,14 @@ workspace_layout tabbed
 ##############################
 
 #border indicator on windows:
-new_window pixel 0
+new_window pixel 4
 
 # thin borders
 hide_edge_borders both
 
 # Set inner/outer gaps
-gaps inner 4
-gaps outer 4
+gaps inner 6
+gaps outer 6
 
 # show window title bars (not officially supported with i3gaps)
 #default_border normal
@@ -178,7 +178,8 @@ bindsym $mod+Return exec --no-startup-id wezterm
 bindsym $mod+q kill
 
 # exit-menu
-bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/powermenu
+# bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/powermenu
+bindsym $mod+Shift+e exec --no-startup-id "~/.config/i3/scripts/emoji"
 
 # Lock the system
 # lock with a picture:
@@ -304,6 +305,7 @@ bindsym $mod+Print exec --no-startup-id /usr/bin/i3-scrot -sc
 #Power Profiles menu switcher (rofi)
 bindsym $mod+Shift+p exec --no-startup-id rofi -show power-menu -modi power-menu:~/.config/i3/scripts/power-menu
 
+bindsym $mod+Shift+a exec --no-startup-id rofi -lines 10 -padding 0 -show search -modi search:~/bin/eg -i -p "Search Google: "
 ##########################################
 # configuration for workspace behaviour: #
 ##########################################
@@ -454,6 +456,15 @@ for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
 
 for_window [class=(?i)mpv] floating enable
 for_window [class=(?i)mpv] sticky enable
+
+for_window [class=(?i)vlc] floating enable
+for_window [class=(?i)vlc] sticky enable
+
+for_window [class=(?i)mate-terminal] floating enable
+for_window [class=(?i)mate-terminal] sticky enable
+for_window [class=(?i)Upwork] floating enable
+for_window [class=(?i)Upwork] sticky enable
+
 
 for_window[title=Picture-in-Picture] sticky enable
 

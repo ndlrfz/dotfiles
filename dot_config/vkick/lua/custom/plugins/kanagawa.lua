@@ -70,7 +70,7 @@ return {
 	{
 		"scottmckendry/cyberdream.nvim",
 		lazy = false,
-		enabled = false,
+		-- enabled = false,
 		priority = 1000,
 		config = function()
 			local cyberdream = require("cyberdream")
@@ -80,7 +80,7 @@ return {
 				borderless_telescope = true,
 				terminal_colors = true,
 				theme = {
-					saturation = 0.7,
+					saturation = 0.8,
 				},
 				extensions = {
 					gitsigns = true,
@@ -88,6 +88,9 @@ return {
 					telescope = true,
 					treesitter = true,
 					whichkey = true,
+				},
+				colors = {
+					fg = "#adb5bd",
 				},
 			})
 			vim.cmd("colorscheme cyberdream")
@@ -226,7 +229,7 @@ return {
 	{
 		"thesimonho/kanagawa-paper.nvim",
 		lazy = false,
-		--enabled = false,
+		enabled = false,
 		priority = 1000,
 
 		config = function()
