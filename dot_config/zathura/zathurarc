@@ -1,4 +1,4 @@
-include zathura-gruvbox-light-soft
+include zathura-solarized-light
 
 set adjust-open "best-fit"
 set window-height 1080

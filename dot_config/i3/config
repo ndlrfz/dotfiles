@@ -23,7 +23,7 @@
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango: Roboto 11
+font pango: Geist 11
 
 # set the mod key to the winkey:
 set $mod Mod4
@@ -54,8 +54,8 @@ new_window pixel 4
 hide_edge_borders both
 
 # Set inner/outer gaps
-gaps inner 6
-gaps outer 6
+gaps inner 3
+gaps outer 2
 
 # show window title bars (not officially supported with i3gaps)
 #default_border normal
@@ -187,6 +187,7 @@ bindsym $mod+Shift+e exec --no-startup-id "~/.config/i3/scripts/emoji"
 # lock by blurring the screen:
 exec_always --no-startup-id "~/.config/i3/scripts/idlehook"
 bindsym $mod+l exec --no-startup-id "betterlockscreen -l dim"
+exec --no-startup-id xautolock -time 10 -locker "i3lock -c 000000 -n" -killtime 10 -killer "systemctl suspend" -corners +00- -detectsleep
 
 # theme
 exec_always --no-startup-id "~/.config/i3/scripts/gtk"
@@ -334,8 +335,8 @@ set $ws10 "10 "
 
 # bind program to workspace and focus to them on startup:
 assign [class="Alacritty|kitty|xfce4-terminal"] $ws2
-assign [class="(?i)brave"] $ws1
-assign [class="(?i)firefox"] $ws1
+assign [class="(?i)zen"] $ws1
+assign [class="(?i)firefox"] $ws3
 assign [class="(?i)ymus|qbittorrent"] $ws6
 assign [class="Thunar"] $ws4
 assign [class="calibre"] $ws6
@@ -398,6 +399,7 @@ exec --no-startup-id autotiling
 #get auth work with polkit-gnome
 #exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
+exec --no-startup-id /usr/sbin/kwalletd6
 
 # dex execute .desktop files + apps using /etc/xdg/autostart.
 # when second to i3 a DE is installed or mixed usage of i3 + xfce4 or GNOME

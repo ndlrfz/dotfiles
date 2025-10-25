@@ -1,4 +1,4 @@
-#
+
 # Executes commands at the start of an interactive session.
 #
 # Authors:
@@ -17,6 +17,7 @@ fi
 path+=('/home/ndlr/bin')
 path+=('/home/ndlr/.config/emacs/bin')
 path+=('/home/ndlr/.local/bin')
+path+=('/home/ndlr/.local/share/flutter/bin')
 #path+=('/home/minjiu/.local/share/gem/ruby/3.0.0/bin')
 export PATH
 
@@ -86,6 +87,7 @@ export ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache/zsh}"
 
 alias vscr='NVIM_APPNAME=vscr nvim'
 alias uvr='python manage.py'
+alias hgcr='highlight-pointer -r 8 -c "#ee9b00" -p "#9b2226"'
 
 export GOPATH=$HOME/Projects/go
 # FZF Plugin
@@ -94,6 +96,10 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS
 --color=fg+:#748fa6,bg+:#222324,hl+:#bbc7b1
 --color=info:#a69e6f,prompt:#bbc7b1,pointer:#748fa6
 --color=marker:#72966c,spinner:#72966c,header:#72966c"
-autoload -Uz promptinit
-promptinit
-prompt pure
+
+# setxkbmap -option caps:swapescape
+
+  autoload -Uz promptinit
+  promptinit
+  prompt sorin
+
